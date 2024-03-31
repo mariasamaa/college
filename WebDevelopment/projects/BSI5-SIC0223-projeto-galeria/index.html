@@ -1,0 +1,67 @@
+<DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <title>Galeria de Imagens</title>
+        <meta charset="UTF-8" meta="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script>
+            function trocarImagem(elemento, novaImagem) {
+                elemento.src = novaImagem;
+            }      
+    
+            function tocarMusica (audio) {
+                var tudum = window.document.getElementById("tudum")
+                tudum.play()
+            }    
+            function abrirPagina(url) {
+                window.location.replace(url);
+            }
+        </script>
+    </head>
+    <body>
+        <audio id="tudum" preload="auto">
+            <source src="audio/netflix_tudum.mp3" type="audio/mp3">
+        </audio>
+
+        <header id="head">
+                <section>
+                    <img id="logo "src="imgs/Netflix-new-icon.png" height="150px" onmouseup="tocarMusica(this,'audio/netflix_tudum.mp3')">
+                </section>
+                <section>
+                    <h1 id="title"> Netflix Originals</h1>
+                    <h2>Galeria de Imagens</h2>
+                </section>
+        </header>
+        <section class="container">
+            <div class="box"><img src="imgs/boys.jpg" onmouseover="trocarImagem(this, 'imgs/boysblur.jpg')" onmouseout="trocarImagem(this, 'imgs/boys.jpg')" onclick="abrirPagina('galerias/galeria01.html')"></div>
+            <div class="box"><img src="imgs/kitty.jpg" onmouseover="trocarImagem(this, 'imgs/kittyblur.jpg')" onmouseout="trocarImagem(this, 'imgs/kitty.jpg')" onclick="abrirPagina('galerias/galeria02.html')"></div>
+            <div class="box"><img src="imgs/enola.jpg" onmouseover="trocarImagem(this, 'imgs/enolablur.jpg')" onmouseout="trocarImagem(this, 'imgs/enola.jpg')" onclick="abrirPagina('galerias/galeria03.html')"></div>
+            <div class="box"><img src="imgs/leave.jpg" onmouseover="trocarImagem(this, 'imgs/leaveblur.jpg')" onmouseout="trocarImagem(this, 'imgs/leave.jpg')" onclick="abrirPagina('galerias/galeria04.html')"></div>
+            <div class="box"><img src="imgs/lucifer.jpg" onmouseover="trocarImagem(this, 'imgs/luciferblur.jpg')" onmouseout="trocarImagem(this, 'imgs/lucifer.jpg')" onclick="abrirPagina('galerias/galeria05.html')"></div>
+            <div class="box"><img src="imgs/money.jpg" onmouseover="trocarImagem(this, 'imgs/moneyblur.jpg')" onmouseout="trocarImagem(this, 'imgs/money.jpg')" onclick="abrirPagina('galerias/galeria06.html')"></div>
+            <div class="box"><img src="imgs/nimona.jpg" onmouseover="trocarImagem(this, 'imgs/nimonablur.jpg')" onmouseout="trocarImagem(this, 'imgs/nimona.jpg')" onclick="abrirPagina('galerias/galeria07.html')"></div>
+            <div class="box"><img src="imgs/queen.jpg" onmouseover="trocarImagem(this, 'imgs/queenblur.jpg')" onmouseout="trocarImagem(this, 'imgs/queen.jpg')" onclick="abrirPagina('galerias/galeria08.html')"></div>
+            <div class="box"><img src="imgs/school.jpg" onmouseover="trocarImagem(this, 'imgs/schoolblur.jpg')" onmouseout="trocarImagem(this, 'imgs/school.jpg')" onclick="abrirPagina('galerias/galeria09.html')"></div>
+            <div class="box"><img src="imgs/squid.jpg" onmouseover="trocarImagem(this, 'imgs/squidblur.jpg')" onmouseout="trocarImagem(this, 'imgs/squid.jpg')" onclick="abrirPagina('galerias/galeria10.html')"></div>
+            <div class="box"><img src="imgs/stranger.jpg" onmouseover="trocarImagem(this, 'imgs/strangerblur.jpg')" onmouseout="trocarImagem(this, 'imgs/stranger.jpg')" onclick="abrirPagina('galerias/galeria11.html')"></div>
+            <div class="box"><img src="imgs/wednesday.jpg" onmouseover="trocarImagem(this, 'imgs/wednesdayblur.jpg')" onmouseout="trocarImagem(this, 'imgs/wednesday.jpg')" onclick="abrirPagina('galerias/galeria12.html')"></div>
+            <div class="box"><img src="imgs/woo.jpg" onmouseover="trocarImagem(this, 'imgs/wooblur.jpg')" onmouseout="trocarImagem(this, 'imgs/woo.jpg')" onclick="abrirPagina('galerias/galeria13.html')"></div>
+            <div class="box"><img src="imgs/you.jpg" onmouseover="trocarImagem(this, 'imgs/youblur.jpg')" onmouseout="trocarImagem(this, 'imgs/you.jpg')" onclick="abrirPagina('galerias/galeria14.html')"></div>"
+            <div class="box"><img src="imgs/zoom.jpg" onmouseover="trocarImagem(this, 'imgs/zoomblur.jpg')" onmouseout="trocarImagem(this, 'imgs/zoom.jpg')" onclick="abrirPagina('galerias/galeria15.html')"></div>
+        </section>
+        
+        <footer id="rodape">
+            <div class="descricao">
+                <img src="https://cecom.ifc.edu.br/wp-content/uploads/sites/10/2022/10/Logo_IFC_horizontal_Araquari.png" width="300px">
+            </div>
+            <div class="descricao">
+                <h3><br>Projeto</h3>
+                <p><strong>Galeria de Imagens:</strong> crie uma página da Web que exiba uma coleção de<br>
+                    imagens. Você pode usar grade CSS ou flexbox para organizar as imagens<br>
+                    e incluir recursos como efeitos de foco e sobreposições de imagem.</p>
+                <p><br>Disciplina de Desenvolvimento Web<br>
+                    Professor Paulo Cesar F. De Oliveira, BSc, PhD<br><br> </p>
+            </div>
+        </footer>
+    </body>
+</html>

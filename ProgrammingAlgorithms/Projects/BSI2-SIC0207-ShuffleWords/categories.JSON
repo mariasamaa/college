@@ -1,0 +1,44 @@
+{
+    "1":
+        {
+        "1" : ["brasil","japao","alemanha","canada","argentina","portugal","espanha","india","china","russia"],
+        "2" : ["colombia","venezuela","honduras","madagascar","belgica","turquia","mexico","irlanda"],
+        "3" : ["uzbequistao","etiopia","eslovaquia","eslovenia","finlandia","tailandia","noruega"]
+        },
+    "2":
+        {
+        "1" : ["cachorro","gato","ovelha","hamster","tartaruga","girafa","pato"],
+        "2" : ["lhama","lemure","marreco","albatroz","cagado","pelicano","ourico"],
+        "3" : ["percevejo","sanguessuga","barracuda","escaravelho","dromedario","chinchila"]   
+        },
+    "3":
+        {
+            "1" : ["frango","portuguesa","calabresa","carne","queijo","bacon","banana","sensacao"],
+            "2" : ["marguerita","napolitana","crocante","tocana","prestigio","chocolate","palmito","romana"],
+            "3" : ["champignon","brasileira","parmegiana","canadense","strogonoff","gorgonzola"]   
+        },
+    "4":
+        {
+            "1" : ["celular","caneta","caderno","garrafa","computador","bolsa","teclado","garfo","boneca"],
+            "2" : ["carregador","televisao","escrivaninha", "xilofone", "vuvuzela","ampulheta","candelabro","sintetizador"],
+            "3" : ["pulverizador","desentupidor","retroescavadeira","termostato","bronzeador","desfribilador", "diapasao","escaleta"]   
+        },
+    "5":
+        {
+            "1" : ["brasilia","porto","madrid","paris","roma","veneza","atenas","tokyo","seoul","dublin","londres"],
+            "2" : ["dorado","filadelfia","liverpool","valencia","florenca","monique","bolonha","delfos","saitama","cordova","cusco"],
+            "3" : ["guadalajara","maragogi","genova","brasileia","iwamizawa","frankfurt","bruxelas","galway","cambridge"]   
+        },
+    "6":
+        {
+            "1" : ["azul","verde","amarelo","vermelho","roxo","rosa","laranja","marrom","cinza","branco","preto"],
+            "2" : ["caramelo","caqui","castanho","cereja","dourado","gelo","ferrugem","magenta","turquesa"],
+            "3" : ["fuchsia","grena","heliotropio","indigo","marfim","mocassin","purpura","rutilo","sepia","orquidea"]   
+        },
+     "7":
+        {
+            "1" : ["maca","banana","abacaxi","uva","laranja","morango","kiwi","pera","pessego"],
+            "2" : ["puca","pequi","pistache","mexerica","lichia","imbu","inga","bergamota"],
+            "3" : ["saguaraji","pomelo","nespera","nectarina","jenipapo","groselha","cranberry","ciriguela"]   
+        }
+    }
