@@ -22,11 +22,11 @@ Aqui estão guardados alguns dos meus projectos universitários, separados por d
 ### 📁Algortimos e Programação
 Esta pasta guarda exercícios, pequenos projectos e testes feitos durante o primeiro e segundo semestres na universidade, quando tive aulas de programação e algoritmos. Nessas aulas, o professor nos ensinou o básico sobre lógica de programação e conceitos sobre python.
 
-### Programação Orientada a Objectos
+### 📁Programação Orientada a Objectos
 Esta pasta guarda exercícios e projectos feitos durante o terceiro e quarto semestres da universidade, quando tive aulas de programação orientada a objectos. Nestas aulas, o professor nos ensinou conceitos sobre orientação a objectos e mostrou como aplicá-los com python. 
 
 ### 📁Estrutura de dados
 Esta pasta contém exercícios resolvidos sobre Estruturas de Dados, durante o quarto e quinto semestre da universidade. Nessas aulas, o professor nos apresentou à linguagem C e como ela se encaixa em estruturas de dados como listas, arrays, árvores e grafos. Este última foi mais explorada no quinto semestre.
 
-### Desenvolvimento Web
+### 📁Desenvolvimento Web
 Esta pasta guarda exercícios resolvidos e projectos desenvolvidos durante o quinto e sexto semestres. Nestas aulas, o professor nos ensinou conceitos de desenvolvimento front-end, nomeadamente conceitos de HTML, CSS e JavaScript, utilizando o livro "Use a Cabeça, Programação com HTML 5: Um Guia de Aprendizagem pata criar aplicações web com JavaScript".
