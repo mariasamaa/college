@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" meta="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="dogicon.ico" type="image/x-icon">
+        <title>Lista 02 - Exercício 01</title>
+
+        <style>
+            body{
+                background: pink;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            div#resultado{
+                margin-top: 20px;
+                background-color: azure;
+                padding: 15px;
+            }
+            section {
+                background: rgb(239, 223, 226);
+                color: black;
+                width: 500px;
+                border: 2px solid;
+                border-color: rgb(98, 26, 61);
+            }
+            footer {
+                background: rgb(239, 223, 226);
+                color: black;
+                width: 500px;
+                border: 2px solid;
+                border-color: rgb(98, 26, 61);
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Lista de Exercícios #02</h1>
+            <p><strong>Exercício #01: </strong>Faça um programa que peça dois números e imprima o maior deles.</p>
+        </header>
+
+        <section>
+            Digite o 1º número: <input type='number' name='texto01' id='texto01'>
+            <br><br>
+            Digite o 2º número: <input type='number' name='texto02' id='texto02'>
+            <br><br>
+            <input type='button' value='Verifica qual é maior' onclick='verificar()'>
+            <div id='resultado'></div> <!-- Aqui será exibido o resultado -->
+        </section>
+
+        <footer>
+            <p><strong>Navegação</strong><br>
+                Clique <a href="ex02.html">aqui</a> para ir ao próximo exercício<br>
+                Clique <a href="ex08.html">aqui</a> para ir ao exercício anterior<br>
+                Clique <a href="main.html">aqui</a> para voltar ao menu</p>
+        </footer>
+           
+
+        <script>
+            function verificar() {
+                var text_num_01 = window.document.getElementById('texto01');
+                var text_num_02 = window.document.getElementById('texto02');
+                var num01 = Number(text_num_01.value);
+                var num02 = Number(text_num_02.value);
+                var result = window.document.getElementById('resultado');
+
+                if (num01 > num02) {
+                    result.innerHTML = `O número ${num01} é maior que o número ${num02}`;
+                } else if (num02 > num01) {
+                    result.innerHTML = `O número ${num02} é maior que o número ${num01}`;
+                } else {
+                    result.innerHTML = 'Os números são iguais';
+                }
+            }
+        </script>
+    </body>
+</html>
